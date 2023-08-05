@@ -23,8 +23,6 @@ const ItemPoster=({prop})=>{
                         ):(
                             `Post was posted by ${prop.userId}`
                         )
-
-                        
                     }
                 </div>
             </div>

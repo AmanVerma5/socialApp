@@ -183,3 +183,54 @@ img{
     gap:10px;
     max-height:80vh;
 }
+
+@media screen and (max-width: 768px){
+    .tags{
+        width:35%
+    }
+    .display-item, .display-item1{
+        grid-template-columns: auto auto;
+    }
+    .item-container{
+        height:400px;
+    }
+}
+@media screen and (max-width: 425px){
+    .tags{
+        width:50%;
+        margin-left:40%;
+    }
+    
+    .display-item, .display-item1{
+        grid-template-columns: auto ;
+    }
+    
+    .image{
+        float: none;
+        width:80%;
+        margin:0 auto;
+        display: grid;
+        height:250px;
+    }
+    .item-poster{
+       max-height:90vh;
+    }
+    .image img{
+        width:100%;
+        height:80%;
+    }
+    .left{
+        margin-left:10%;
+        width:80%;
+        min-height:100px;
+        max-height: 300px;
+    }
+    .buttons:first-child{
+        margin-left: 25%;
+    }
+    .poster-title{
+       
+        height:20px;
+        top:-425%
+    }
+}
